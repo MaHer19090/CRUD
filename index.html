@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Js</title>
+</head>
+<body>
+    
+    <!-- // Ex1: Function --------------------------------------------------------------> 
+    <!-- <h2>Home</h2>
+    <section id="home"></section>
+    <h2>About</h2>
+    <section id="about"></section>
+    <h2>Contact</h2>
+    <section id="contact"></section> --------------------------------------------------->
+    
+
+    <!-- Project1 CRUDS ---------------------------------------------------------------->
+    <h1 class="text-primary text-center">CRUD</h1>
+    <main class="w-75 mx-auto">
+        <section class="bg-info p-3">
+            <div class="inputs-form mb-2">
+                <label for="productName">Product Name:</label>
+                <input class="form-control" type="text" id="productName" placeholder="Product Name:">
+            </div>
+            <div class="inputs-form mb-2">
+                <label for="productPrice">Product Price:</label>
+                <input class="form-control" type="number" id="productPrice" placeholder ="Product Price:">
+            </div>
+            <div class="inputs-form mb-2">
+                <label for="productCategory">Product Category:</label>
+                <input class="form-control" type="text" id="productCategory" placeholder="Product Category:">
+            </div>
+            <div class="inputs-form mb-2">
+                <label for="productDescription">Product Description:</label>
+                <textarea class="form-control" id="productDescription"></textarea>
+            </div>
+            <button class="btn btn-primary w-100" onclick="addProducts()" id="addBtn">Add Product</button>
+            <button class="btn btn-primary w-100 d-none" onclick="updateProduct()" id="updateBtn">Update Product</button>
+        </section>
+        <input oninput="searchProduct()" type="text" class="form-control text-center my-3 " placeholder="Search..." id ="search" >
+        <section class="bg-danger mt-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+                
+            </table>
+
+        </section>
+
+    </main> 
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

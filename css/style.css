@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------------------------------------------------------------- */
+/* Ex1: Function */
+/* section{
+    min-height: 100px;
+    margin:10px auto;
+    width: 80%;
+    background-color: #09c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    border: 1px solid black;
+}  */
+/* ---------------------------------------------------------------- */
+/* Project1 CRUDS */
+textarea{
+    resize: none;
+    height: 120px;
+}
